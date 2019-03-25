@@ -1,4 +1,3 @@
-//let key = AIzaSyBP2r8J-NE5LFiw-gC04JDmXOkSxv7phxE;
 
 let map;
 
