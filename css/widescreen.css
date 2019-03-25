@@ -1,0 +1,15 @@
+#proizvodi .items {
+    display: block;
+    padding: 1rem;
+}
+
+/* Align icon to left */
+
+#proizvodi .items .item {
+    display: flex;
+    text-align: left;
+}
+
+#kontakt .map{
+    flex: 2;
+}

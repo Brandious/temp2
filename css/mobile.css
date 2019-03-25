@@ -1,0 +1,76 @@
+#proizvodi .items {
+    display: block;
+    padding: 1rem;
+}
+
+/* Align icon to left */
+
+#proizvodi .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Position icon */
+
+#proizvodi .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+/* SmartPhones */
+
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    #navbar .logo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul {
+        padding: 0.5rem;
+    }
+
+    #showcase .showcase-content {
+        top: 110px;
+      
+    }
+
+    #mi {
+        display: block;
+    }
+
+    #mi .mi-img {
+        display: none;
+    }
+
+    #kontakt {
+        flex-direction: column;
+    }
+
+    #kontakt .map {
+        height: 200px;
+        border-top: 4px solid #333;
+    }
+}
+
+
+@media(max-height: 568px){
+
+    #showcase .showcase-content{
+        margin-top: -2rem;
+        top:95px; 
+    }
+
+    .l-heading{
+        font-size: 3rem;
+    }
+
+    .lead{
+        font-size: 1rem;
+    }
+}
